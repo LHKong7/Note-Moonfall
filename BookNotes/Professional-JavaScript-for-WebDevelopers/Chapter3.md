@@ -186,11 +186,80 @@ Each well-defined symbol property is non-writeable, non-enumerable, and non-conf
 
 ##### The Object Type
 
+Objects in ECMAScript start out as nonspecific groups of data and functionality. Objects are created by using the `new` operator followed by the name of the object type to create
+
+`Object` type in ECMAScript is the base from which all other objects are derived. All of the properties and methods of the `Object` type are also present on other, more specifc objects.
+
+Each Object instance has the following properties and methods:
+
+- constructor: function was used to create the object
+- `hasOwnProperty(propertyName)` : Indicates if the given property exists on the object instance (not on the prototype). The property name must be specified as a string
+- `isPrototypeof(object)` : Determines if the object is a prototype of another object.
+- `propertyIsEnumberable(propertyName)` : Indicates if the given property can be enumerated using the `for-in` statement
+- `toLocaleString()` : Returns a string representation of the object that is appropriate for the locale of execution environment
+- `toString()` : Returns a string representation of the object
+- `valueOf()` : Returns a string, number, or boolean equivalent of the object. It often returns the same value as `toString()`
+
+
+
+Postfix statement of unary operation : The increment and decrement does not occur until after the containing statement has been evaluated.
+
+
+
+##### Bitwise Operator
 
 
 
 
 
+##### Statement
+
+**do-while** statement: the escape condition is evaluated only after the code inside the loop has been executed. The body of the loop is always executed at least once beofre the expression is evaluated.
+
+
+
+**for-in** statement: is a strict iterative statement. It is used to enumerate the non-symbol keyed properties of an object.
+
+
+
+**for-of** statement: is a strict iterative statement. It is used to loop through elements in an iterable object.
+
+
+
+**labeled statements**: It is possible to label statements for later use with the following syntax:
+
+`label: statement`
+
+
+
+**The switch statement**:
+
+```
+switch (expression) {
+   case value1:
+     statement
+     break;
+   case value2:
+     statement
+     break;
+   case value3:
+     statement
+     break;
+   case value4:
+     statement
+     break;
+   default:
+     statement
+}
+```
+
+Each case in `switch` statement : If the expression is equal to the value, execute the statement. The `break` keyword casues code execution to jump out of the switch statement. Without the break statement, code execution falls through the original case into the following one.
+
+
+
+##### Functions:
+
+core of any language because it allow the encapsulation of statements that can be run anywhere and at any time. sFunctions in ECMAScript are declared using the `function` keyword, followed by a set of arguments and then body of the function.
 
 
 
