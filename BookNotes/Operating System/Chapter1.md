@@ -2,6 +2,17 @@
 
 ## Chapter 1: Process
 
+The most fundamental abstraction that the OS provides to users -> process
+
+
+
+***Definition***: 
+
+- Informally: a running program (sits on the disk, a bunch of instructions and some static data, waiting to spring into action)
+- 
+
+
+
 The OS creates this illusion by virtualizing the CPU. By running one process, then stopping it and running another, and so forth, the OS can promote the illusion that many virtual CPUs exist when in fact there is only one physical CPU.
 
 ​	**Time Sharing** of the CPU: allows user to run as many concurrent processes as they would like; the potential cost is performance, as each will run more slowly if the CPU(S) must be shared.
