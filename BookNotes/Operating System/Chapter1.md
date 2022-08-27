@@ -9,7 +9,6 @@ The most fundamental abstraction that the OS provides to users -> process
 ***Definition***: 
 
 - Informally: a running program (sits on the disk, a bunch of instructions and some static data, waiting to spring into action)
-- 
 
 
 

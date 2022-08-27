@@ -10,13 +10,6 @@
 
 4,向下取整 `Math.floor(7/2)`
 
-都是JS内置对象
-
-javascript除法如何取整
-Math.round(x) 四舍五入，如Math.round(0.60)，结果为1；Math.round(0.49)，结果为0；
-Math.floor(x) 向下舍入，如Math.floor(0.60)与Math.floor(0.49)，结果均为0；
-Math.ceil(x)向上舍入，如Math.ceil(0.60)与Math.ceil(0. 49)，结果均为1。
-
 
 
 ##### Array:

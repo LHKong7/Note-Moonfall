@@ -1,6 +1,0 @@
-
-
-# GMP Concept and dispatch
-
-
-
