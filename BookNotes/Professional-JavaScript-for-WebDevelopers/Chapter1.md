@@ -10,7 +10,25 @@ Web Browser are just one host environment where an ECMAScript implementation may
 
 Nodejs: a host environment of JavaScript for server-side.
 
-ES6 means the edition of ECMAScript 6
+
+
+ECMA-262 主要描述了语言的以下几个部分：
+
+- Syntax （语法）
+- Types （类型）
+- Statements
+- Keywords （关键字）
+- Reserved Words （保留字）
+- Operators 
+- Global Objects
+
+
+
+ 
+
+
+
+
 
 **The Document Model**:  The Document Object Model (DOM) is an application programming interface (API) for XML that was extended for use in HTML. The DOM maps out an entire page as a hierarchy of nodes. Each part of an HTML or XML page is a type of node containing different kinds of data.
 
